@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(netflix\ bg.jpg);
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no repeat;
+    background-size: max(1000px, 100vw);
+}
+
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.64;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    margin: auto;
+    max-width: 65vw;
+    align-items: center;
+    justify-content: space-between;
+    height: 62p
+}
+nav img{
+    width: 110px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: ;
+    height: calc(100% -62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 29px;
+    t
+}
+.hero> :nth-child(1){
+    font-family: 'poppins',sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.hero> :nth-child(4){
+    font-size: 20px;
+    text-align: center;
+}
+.separation{
+    height: 7px;
+    background-color: rgb(85, 82, 82);
+}
+
+.btn{
+    font-family: 'poppins',sans-serif;
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(248, 243, 243, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 3px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+.main input{
+    padding: 7px 40px 8px 14px;
+    font-weight: 500;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.7);
+    border-radius:1px solid rgba(23,23,23,0.5);
+}
+.btn-red-sm{
+background-color: red;
+color: white;
+}
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secimg img{
+    width: 40vw;
+    padding: 120px;
+    position: relative;
+    z-index: 10;
+    left: 240px;
+}
+.secimg{
+    position: relative;
+    ;
+}
+.secimg video{
+    position: absolute;
+    top: 210px;
+    right: px;
+    left: 410px;
+}
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+    
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.img video{
+position: absolute;
+left: 800px;
+top: 1599px;
+}
